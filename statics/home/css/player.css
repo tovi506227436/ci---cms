@@ -1,0 +1,67 @@
+*{margin:0;padding:0}
+#v1{
+	width:600px;
+}
+#div1{
+	width:600px;
+	height:10px;
+	background:#666;
+	overflow:hidden;
+	position:relative;
+	border-radius:8px;
+	
+}
+#div2{
+	width:60px;
+	height:10px;
+	background:#000;
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	top:0;
+	border-radius:8px;
+	opacity:0.5
+}
+#vid{
+	width:600px;
+	height:50px;
+	background-color: rgba(7, 20, 30, 0.7);
+	margin:auto
+}
+.player{
+	border:0px;	
+	line-height:38px;		
+	background:#515A61;
+	cursor:pointer;
+}
+p{
+	background-color:"#FBFBFB";
+}
+
+#zhe{
+	background:#333;
+	position:fixed;
+	bottom:0
+}
+#layerRecord{
+	width:100%;
+	height:40px;	
+}
+#record{
+	width:100px;
+	height:40px;
+	background:#5A98DE;
+	float:right;
+	margin-right:2px;
+	border:1px solid #5A98DE;
+	line-height:40px;
+	color:#fff;
+	box-sizing: border-box;
+	font-weight: 400;
+	white-space: nowrap;
+	vertical-align: middle;
+	border: 1px solid #DDD;
+	ransition: background-color 0.1s linear 0s;
+	border-radius: 4px;
+	cursor: pointer;
+}

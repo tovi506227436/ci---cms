@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,ol,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select{ padding:0; margin:0; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+li{ list-style:none;}
+img{ border:none;}
+a { text-decoration:none; color:inherit;}
+a:hover { text-decoration: none; }
+a:hover   {color:inherit;}
+a:active  {color:inherit;}
+
+
+
+body{background:#fff url(../images/body_bg.jpg) repeat-y center; }
+.top_menu {float:left;}
+.top_menu li { float:left; font-size:16px; line-height:40px; font-family: 微软雅黑; font-weight:bold; color:#FFFFFF; margin-right:5px; }
+.top_menu li a { color:#ffffff;}
+.top_menu li a:hover { color:#FFFFFF; }
+
+#header { margin:0 auto; width:auto; height:254px; background:#b60000 url(../images/headerpic.jpg) center no-repeat;}
+#header .secrch { float:right;}
+
+#nav_11 { width:auto; height:107px; background:url(../images/nav_bg.jpg) no-repeat center; color: #FFFFFF; line-height:normal;}
+#nav_n { width:1000px; height:107px; margin:0 auto;}
+#gg:hover { color:#fff; font-weight:bold; text-decoration: none;  }
+#gg  { color:#fff; }
+
+.dhwz { font-size:12px; font-family: 微软雅黑 ; color:#fff; float:left;}
+.navbta { font-size:16px; font-family: 微软雅黑; font-weight:bold; color:#fff; margin:10px 0 0 14px;}
+
+#nav1 { width:91px; height:107px;  background: url(../images/nav_bg.png) no-repeat right; float:left;}
+#nav2 { width:134px; height:107px;  background: url(../images/nav_bg.png) no-repeat right; float:left;}
+#nav3 { width:122px; height:107px;  background: url(../images/nav_bg.png) no-repeat right; float:left;}
+#nav4 { width:86px; height:107px;  background: url(../images/nav_bg.png) no-repeat right; float:left;}
+#nav5 { width:106px; height:107px;  background: url(../images/nav_bg.png) no-repeat right; float:left;}
+#nav6 { width:92px; height:107px;  background: url(../images/nav_bg.png) no-repeat right; float:left;}
+#nav7 { width:101px; height:107px;  background: url(../images/nav_bg.png) no-repeat right; float:left;}
+#nav8 { width:91px; height:107px;  background: url(../images/nav_bg.png) no-repeat right; float:left;}
+#nav9 { width:177px; height:107px;  float:left;}
+
+
+.nava_wz1 { float: left; width:30px; margin-top:8px; margin-left:15px;}
+.nava_wz2 { float: left; width:30px; margin-top:8px; margin-left:8px;}
+.nava_wz3 { float: left; width:30px; margin-top:5px; margin-left:15px;}
+.nava_wz4 { float: left; width:30px; margin-top:5px; margin-left:8px;}
+
+.nav2_wz1 { float: left; width:55px; margin-top:8px; margin-left:15px;}
+.nav2_wz2 { float: left; width:55px; margin-top:8px; margin-left:6px;}
+.nav2_wz3 { float: left; width:55px; margin-top:5px; margin-left:15px;}
+.nav2_wz4 { float: left; width:55px; margin-top:5px; margin-left:6px;}
+
+.nav3_1 {float: left; width:55px; margin-top:8px; margin-left:15px;}
+.nav3_2 {float: left; width:45px; margin-top:8px; margin-left:6px;}
+.nav3_3 {float: left; width:55px; margin-top:5px; margin-left:15px;}
+.nav3_4 {float: left; width:45px; margin-top:5px; margin-left:6px;}
+
+.nav4_1 { float: left; width:55px; margin-top:8px; margin-left:15px;}
+.nav4_2 { float: left; width:55px; margin-top:5px; margin-left:15px;}
+
+.nav5_1 { float: left; width:80px; margin-top:8px; margin-left:15px;}
+.nav5_2 { float: left; width:80px; margin-top:5px; margin-left:15px;}
+
+.secrch { width:156px; height:27px; background:#FFFFFF; margin: 10px 0 0 7px;}
+.secrch .text { float:left; width:111px; height:27px; background:none; border:none; font-size:12px; color:#858585; margin-left:10px; outline:none;}
+.secrch .btn { float:right; width:35px; height:27px; background:url(../images/ss_n.png) no-repeat right; border:none; outline:none;}
+.secrch .btn:hover { background:url(../images/ss_h.png) no-repeat right; }
+
+#nav9 li { color:#FFFFFF; float:left; font-size:12px;}
+
+
+
+
+#con_1 { width:950px; height:650px; margin:40px auto 0 auto; padding-left:50px;}
+
+#footer { width:1000px; height:190px; margin:0 auto;}
+#footer_bar {  width:100%; height:36px; background:url(../images/footer_bg.jpg) no-repeat;  }
+#footer_bar ul { margin:0 auto; height:36px; text-align:center;width:520px;}
+#footer_bar li { color:#FFFFFF; line-height:36px; font-size:12px;display: inline ; margin-right:20px;}
+#footer_banner { width:100%; height:158px; background:url(../images/footer_bar.jpg) no-repeat center;}
+
+#rongqi{
+	text-align:center;
+	margin: auto;
+	/*margin: auto;
+	position: absolute;
+	top:0;
+	left:0;
+	text-align:center;
+	background:#999;
+	z-index:88888;
+*/}

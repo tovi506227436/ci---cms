@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,ol,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select{ padding:0; margin:0; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+li{ list-style:none;}
+img{ border:none;}
+a { text-decoration:none; color:inherit;}
+a:hover { text-decoration: none; }
+a:hover   {color:inherit;}
+a:active  {color:inherit;}
+
+body{background:#fff url(../images/body_bg.jpg) repeat-y center; }
+
+#top { width:auto; height:40px; margin:0 auto; background:url(../images/top_bg.jpg) repeat-x;}
+#toponly { width:1000px; height:40px; margin:0 auto; }
+.pic{
+	border:2px solid #E3E3E3;
+}
+.top_menu {float:left;}
+.top_menu li { float:left; font-size:16px; line-height:40px; font-family: 微软雅黑; font-weight:bold; color:#FFFFFF; margin-right:5px; }
+.top_menu li a { color:#ffffff;}
+.top_menu li a:hover { color:#FFFFFF; }
+#top_bar1 { float:right; width:480px; height:40px;}
+#top_bar1 li { font-size:12px; line-height:40px; font-family: 微软雅黑;  color:#FFFFFF; float:left; margin-right:15px;}
+
+#inzhong {width: 1000px; height: auto; margin: 0 auto;}
+#left_a1 { width:230px; height: ;  background: #f1f1f1; margin:15px 10px 0 15px; float:left; }
+.left_dh { width:210px; height:44px; margin:10px; auto; background:#d8d8d8; float:left;}
+.left_dh1 { width:210px; height:44px; margin:10px; auto; background:#d00202; float:left;}
+.left_dh:hover { background: #d00202;}
+.left_dh1_px { font-family: 微软雅黑; font-size:16px; color:#FFFFFF; line-height:44px;text-align:center;}
+.left_dh1_p { font-family: 微软雅黑; font-size:16px; color:#d00202; line-height:44px;text-align:center;}
+.left_dh1_p:hover { color:#ffffff;}
+#right_a1 { width:730px; height: auto;  float:left; margin-top:15px;}
+#right_top { width:730px; height:147px; margin-bottom: 10px;  background: #f1f1f1;}
+#right_nr { width:730px; height: auto;  }
+.right_top_left { width:476px; height:147px; background: url(../images/pc_bg.jpg) no-repeat right; float:left;}
+.right_top_left img { margin:24px 0 0 24px; float:left;}
+
+.right_top_bt { font-size:16px; font-family:微软雅黑; font-weight:bold; padding:24px 0 10px 0px; margin-left:15px; float:left; width:330px;} 
+.right_top_tg { font-size:12px; font-family:微软雅黑; padding:5px 0 5px 0px; margin-left:15px; float:left;} 
+
+.right_top_right { width:250px; height:100%; float:right;}
+.right_top_right_wz { width:120px; float:left; margin:26px 0 0 25px;}
+#jd { float:left; font-size:30px; color:#d00202; font-weight:bolder; margin-top:8px;}
+.ld { width:80%; height:10px; margin:65px 0 0 24px;}
+.progress-bar { width:50%; background:#c0c0c0;}
+.sr-only { background:#d00202;}
+.ld_an { width:200px; height:38px; background:#d00202; margin:10px auto 0 auto;}
+.ld_an p { color:#fff; font-size:14px; line-height:38px; text-align:center;}
+
+.right_nr_bt { background:url(../../images/bt_bg.jpg) repeat-x ; width:100%; height:38px; }
+.right_nr_bt p { line-height:38px; background:url(../../images/inew_bg2.png) no-repeat left; color:#d00202; padding-left:20px;}
+
+.right_nr_zw h4 { margin:15px 0 15px 10px; font-weight:bold;}
+.right_nr_zw p { margin: 0 10px 0 10px; line-height:2; font-size:14px;}
+.right_nr_zw img { margin:10px 10px 5px 10px;}
+right_nr_tj {  width:100%; height:100px;}
+
+.right_nr_xg { height: auto; width:730px; margin-bottom:30px; padding-bottom:30px;}
+.xg_img { margin:15px 0 0 10px; float:left;}
+.xg_img p { margin: 5px 0 0 195px; font-size:14px; color:#FF0004;}
+.right_nr_xg2 { height:auto; background:url(../images/line.jpg) repeat-x bottom; width:730px; margin-bottom:30px; padding-bottom:30px;}
+.xg_tj { width:730px; height:80px;padding-top:10px; margin-top:10px;}
+
+.xg_videos {  margin:20px 0 0 25px; float:left;}
+.xg_videos p { margin: 10px 0 0 0; font-size:14px; line-height:1;}
+.wx_ydjl li { font-size:16px; margin:7px 0 7px 0;}
+.wx_ydjl { background:url(../images/line2.jpg) repeat-x bottom; width:730px; height:auto;}
+.xg_wz_bt { float:left; /*width: 565px; */background: url(../images/dh.jpg) no-repeat left; padding-left:15px;}
+.xg_wz_sj { float:right; color:#D10003;}
+
+
+#footer { width:1000px; height:190px; margin:0 auto; margin-top:20px;}
+#footer_bar {  width:100%; height:36px; background:url(../images/footer_bg.jpg) no-repeat;  }
+#footer_bar ul { margin:0 auto; height:36px; text-align:center;width:520px;}
+#footer_bar li { color:#FFFFFF; line-height:36px; font-size:12px; display: inline ; margin-right:20px;}
+#footer_banner { width:100%; height:158px; background:url(../images/footer_bar.jpg) no-repeat center;}
